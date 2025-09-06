@@ -1,9 +1,0 @@
-experiments:
-  points_heresy:
-    scope_city: willpower
-    window: 7d
-    success: { lift_completion_pct: ">=10" }
-    hard_stops:
-      - { metric: anxiety_reports_pct, op: ">=", value: 20 }
-      - { metric: open_no_complete_pct, op: ">=", value: 30 }
-    revert: disable_flag:points_heresy
